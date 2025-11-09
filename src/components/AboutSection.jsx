@@ -51,7 +51,7 @@ export const AboutSection = () => {
                 <div className="flex items-center gap-2 p-2 rounded-full bg-primary/10 text-primary">
                   <Code className="h-6 w-6 text-primary" />
                   <p className="text-muted-foreground">
-                    Website: eiphyusinmg-portfolio-website.vercel.app/
+                    Website: eiphyusinmg-portfolio-website.vercel.app
                   </p>
                 </div>
               </div>
