@@ -1,6 +1,6 @@
 import { ArrowRightIcon, Code, Mail, Phone } from "lucide-react";
 import ProfilePic from "../assets/profile.jpg";
-import Resume from "../assets/Ei_Phyu_Sin_Mg_Resume.pdf";
+import Resume from "../assets/Resume.pdf";
 import { Link } from "react-router-dom";
 
 export const AboutSection = () => {
@@ -27,22 +27,22 @@ export const AboutSection = () => {
           {/* Left column - Text + contact cards + buttons */}
           <div className="flex-1 space-y-6 order-2 md:order-1 text-left">
             <h3 className="text-2xl md:text-2xl mb-4 font-extrabold text-primary transition-transform duration-500 hover:scale-105 ">
-              Web Developer & Mobile App Developer
+              Web Developer & Mobile App Developer & IT Administrator
             </h3>
 
             <p className="text-muted-foreground">
               I'm a final year ICT student who spent the past few years
               exploring the world of software development — from building full
-              stack wesbites and mobile apps. I'm passionate about intuitive
-              user experiences, clean architecture, and solving real-world
-              problems with code.
+              stack wesbites, mobile apps and administrating IT systems. I'm
+              passionate about intuitive user experiences, clean architecture,
+              and solving real-world problems with code.
             </p>
 
             <p className="text-muted-foreground">
               Right now, I am looking for an internship from January to May 2026
-              — a place where I can contribute to real products, learn from
-              experienced developers, and continue leveling up my skills in
-              mobile and full-stack development.
+              — a place where I can be trained and learned from experienced
+              developers, and continue leveling up my skills in mobile,
+              full-stack development and IT adminstration.
             </p>
 
             {/* Contact cards */}

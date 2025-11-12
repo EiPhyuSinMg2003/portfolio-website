@@ -4,6 +4,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.jpg";
 
 const projects = [
   {
@@ -53,6 +54,15 @@ const projects = [
     image: project5,
     tags: ["React-Native", "TypeScript"],
     githubUrl: "https://github.com/EiPhyuSinMg2003/chatbot-app.git",
+  },
+  {
+    id: 5,
+    title: "Firewall Configuration and Network Lab",
+    description:
+      "Simulated a secure corporate network with VLANs, routers, switches, and firewalls; configured traffic between LAN, DMZ, and external networks while applying network security and routing concepts.",
+    image: project6,
+    tags: ["Network Security", "Firewall", "VLAN", "Routing"],
+    githubUrl: "https://github.com/EiPhyuSinMg2003/networking.git",
   },
 ];
 
