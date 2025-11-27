@@ -1,5 +1,5 @@
 import { ArrowBigRight, ExternalLink, Github } from "lucide-react";
-import project1 from "../assets/project1.png";
+//import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
@@ -7,7 +7,7 @@ import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.jpg";
 
 const projects = [
-  {
+  /*{
     id: 1,
     title: "Real Estate Platform",
     description:
@@ -15,7 +15,7 @@ const projects = [
     image: project1,
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     githubUrl: "https://github.com/EiPhyuSinMg2003/real-estate.git",
-  },
+  },*/
   {
     id: 2,
     title: "Inventory Management System",
