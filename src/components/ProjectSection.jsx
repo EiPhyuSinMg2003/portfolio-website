@@ -1,6 +1,6 @@
 import { ArrowBigRight, ExternalLink, Github } from "lucide-react";
 import project1 from "../assets/project1.png";
-//import project2 from "../assets/project2.png";
+import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -16,7 +16,7 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     githubUrl: "https://github.com/EiPhyuSinMg2003/real-estate.git",
   },
-  /*
+
   {
     id: 2,
     title: "Inventory Management System",
@@ -27,7 +27,7 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "Express.js"],
 
     githubUrl: "https://github.com/EiPhyuSinMg2003/inventory-management.git",
-  },*/
+  },
   {
     id: 3,
     title: "E-commerce Clothing App",
