@@ -1,6 +1,6 @@
 import { ArrowBigRight, ExternalLink, Github } from "lucide-react";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
+import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -9,24 +9,23 @@ import project6 from "../assets/project6.jpg";
 const projects = [
   {
     id: 1,
+    title: "Admin Dashboard",
+    image: project2,
+    description:
+      "A full-featured admin dashboard for managing teams, tracking invoice balances, creating user profiles, and visualizing data with interactive charts.",
+
+    tags: ["React", "JavaScript", "Css"],
+
+    githubUrl: "https://github.com/EiPhyuSinMg2003/admin-dashboard.git",
+  },
+  {
+    id: 2,
     title: "Real Estate Platform",
     description:
       "A property management platform allowing users to browse, list, and manage real estate properties.",
     image: project1,
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     githubUrl: "https://github.com/EiPhyuSinMg2003/real-estate.git",
-  },
-
-  {
-    id: 2,
-    title: "Inventory Management System",
-    image: project2,
-    description:
-      "A full-featured inventory dashboard for managing inventory, products, and users, with real-time analytics, sales tracking, expense summaries, and category-wise visualizations.",
-
-    tags: ["Next.js", "Tailwind CSS", "Express.js"],
-
-    githubUrl: "https://github.com/EiPhyuSinMg2003/inventory-management.git",
   },
   {
     id: 3,
